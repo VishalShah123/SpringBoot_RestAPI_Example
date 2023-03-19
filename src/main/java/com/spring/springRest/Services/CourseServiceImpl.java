@@ -21,7 +21,7 @@ public class CourseServiceImpl implements CourseService {
 
 	@Override
 	public List<Course> getCourses() {
-	
+	System.out.println("this is for fetching all the courses");
 		return courseDao.findAll();
 		
 	}
